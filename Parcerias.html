@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcerias</title>
+    <link rel="stylesheet" href="carros.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;700&display=swap">
+</head>
+<body>
+    <header>
+        <h1><a href="home.html" class="logo">CarOfSet</a></h1>
+        <nav>
+            <ul>
+                <li><button id="toggleTheme">Modo Escuro</button></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="Portifolio.html">Portfólio</a></li>
+                <li><a href="Quemsomos.html">Quem somos</a></li>
+                <li><a href="Parcerias.html">Parcerias</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="pr">
+        <h2>Nossos Parceiros</h2>
+    </section>
+
+    <!-- CSS interno -->
+<style>
+    /* Aplica a fonte Newsreader ao corpo da página */
+    .pr h2 {
+        font-family: 'Newsreader';
+        font-size: 80px;
+    }
+    </style>
+
+    <section class="info-pr">
+        <div class="text-pr">
+            <!-- css inline -->
+            <p style='color: rgb(201, 165, 6);'>Nossos Parceiros</p>
+            <p>Nosso trabalho não seria o mesmo sem a colaboração dos talentosos fotógrafos que compartilham nossa paixão por carros e fotografia. Cada imagem que você vê em nosso site é fruto do olhar criativo e da dedicação desses profissionais incríveis, que capturam a essência e a beleza dos veículos de forma única.</p>
+            <p>Trabalhamos lado a lado com fotógrafos da região de Curitiba, cada um trazendo seu estilo, técnica e sensibilidade para criar imagens que vão além de simples registros. Eles são especialistas em transformar carros em verdadeiras obras de arte visuais, seja destacando o design, os detalhes minuciosos ou a potência de cada máquina.</p>
+            <p>A dedicação e o talento de nossos parceiros fazem com que cada fotografia conte uma história. É através desse trabalho em equipe que conseguimos oferecer a você as melhores imagens, inspiradas por uma visão artística e por um amor compartilhado por automóveis.</p>
+            <p>Aos nossos fotógrafos parceiros, nossa gratidão e respeito por tornarem este projeto possível!!!!</p>
+        </div>
+    </section>
+
+    <section class="parceiros">
+        <h2>Veja aqui todos os perfis que estão no site.</h2>
+        <div class="pr-insta">
+            <div class="pr-img">
+                <a href="https://www.instagram.com/chagas_films" target="_blank">
+                <img src="chagasfilm.PNG" alt="chagasfilm">
+                </a>
+            </div>
+
+            <div class="pr-img">
+                <a href="https://www.instagram.com/carsofcuritiba/" target="_blank">
+                <img src="carsofcuritiba.PNG" alt="carsofcuritiba">
+                </a>    
+            </div>
+
+            <div class="pr-img">
+                <a href="https://www.instagram.com/wbr.media" target="_blank">
+                <img src="wbr.PNG" alt="wbr">
+                </a>
+            </div>
+
+            <div class="pr-img">
+                <a href="https://www.instagram.com/14spotting" target="_blank">
+                <img src="14spotting.PNG" alt="14spotting">
+                </a>
+            </div>
+
+            <div class="pr-img">
+                <a href="https://www.instagram.com/mendes_carspotter" target="_blank">
+                <img src="mendescarspotter.PNG" alt="mendescarspotter">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="form-parceiros">
+        <h2>Seja Nosso Parceiro</h2>
+        <p>Você é fotógrafo e gostaria de expor seu trabalho aqui? Preencha o formulário abaixo para se inscrever como parceiro:</p>
+        <form id="parceiroForm">
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+    
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+    
+            <label for="instagram">Perfil no Instagram:</label>
+            <input type="text" id="instagram" name="instagram" placeholder="Ex: @seuperfil" required>
+    
+            <label for="descricao">Descrição do seu trabalho:</label>
+            <textarea id="descricao" name="descricao" placeholder="Fale um pouco sobre o seu trabalho e sua experiência com fotografia de carros" rows="5" required></textarea>
+    
+            <button type="submit">Enviar</button>
+        </form>
+    
+        <div id="mensagem" style="margin-top: 1em; color: green; display: none;"></div>
+    </section>
+    
+
+    <style>
+        .form-parceiros {
+            margin: 2em 0;
+            padding: 1em;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+    
+        .form-parceiros h2 {
+            font-family: 'Newsreader';
+            color: rgb(201, 165, 6);
+            text-align: center;
+        }
+    
+        .form-parceiros form {
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+        }
+    
+        .form-parceiros label {
+            font-weight: bold;
+        }
+    
+        .form-parceiros input, 
+        .form-parceiros textarea, 
+        .form-parceiros button {
+            width: 100%;
+            padding: 0.8em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+    
+        .form-parceiros button {
+            background-color: rgb(201, 165, 6);
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    
+        .form-parceiros button:hover {
+            background-color: rgb(150, 130, 5);
+        }
+    </style>
+
+<script>
+    document.getElementById('parceiroForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Evita o envio padrão do formulário
+
+        // Coleta os dados do formulário
+        const nome = document.getElementById('nome').value;
+        const email = document.getElementById('email').value;
+        const instagram = document.getElementById('instagram').value;
+        const descricao = document.getElementById('descricao').value;
+
+        if (nome && email && instagram && descricao) {
+            fetch('https://jsonplaceholder.typicode.com/posts', { 
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ nome, email, instagram, descricao }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Exibe uma mensagem de confirmação
+                const mensagem = document.getElementById('mensagem');
+                mensagem.style.display = 'block';
+                mensagem.textContent = `Obrigado por se inscrever, ${nome}! Verificaremos suas informações e entraremos em contato.`;
+                console.log('Dados enviados:', data);
+
+                // Limpa o formulário
+                document.getElementById('parceiroForm').reset();
+            })
+            .catch(error => {
+                console.error('Erro ao enviar os dados:', error);
+                alert('Ocorreu um erro ao enviar os dados. Tente novamente mais tarde.');
+            });
+        } else {
+            alert('Por favor, preencha todos os campos antes de enviar.');
+        }
+    });
+</script>
+
+    <footer>
+        <p>&copy; 2024 CarOfSet. Todos os direitos reservados.</p>
+    </footer>
+</body>
+<script src="carros.js"></script>
+</html>
