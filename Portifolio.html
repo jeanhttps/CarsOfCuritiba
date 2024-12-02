@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifiolio</title>
+    <link rel="stylesheet" href="carros.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;700&display=swap">
+</head>
+<body>
+    <header>
+        <h1><a href="home.html" class="logo">CarOfSet</a></h1>
+        <nav>
+            <ul>
+                <li><button id="toggleTheme">Modo Escuro</button></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="Portifolio.html">Portfólio</a></li>
+                <li><a href="Quemsomos.html">Quem somos</a></li>
+                <li><a href="Parcerias.html">Parcerias</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="port">
+        <h2>Você encontra as melhores <br>FOTOS aqui</h2>
+    </section>
+
+    <div class="search-container">
+        <input
+            type="text"
+            id="searchInput"
+            class="search-bar"
+            placeholder="Digite para buscar uma imagem..."
+        />
+    </div>
+
+    <section class="portfolio">
+
+        <div class="dropdown">
+            <img src="Porsche 918.jpg" alt="Porsche 918" onclick="openModal('modal1')">
+            <div class="dropdown-content">
+                <a href="https://www.instagram.com/p/C_52e6qPLHO/?img_index=2" target="_blank">Instagram</a>
+            </div>
+        </div>
+    
+        <div class="dropdown">
+            <img src="Mclaren Senna.jpg" alt="Mclaren Senna" onclick="openModal('modal2')">
+            <div class="dropdown-content">
+                <a href="https://www.instagram.com/14spotting/p/C_8xcFNycrV/?img_index=13" target="_blank">Instagram</a>
+            </div>
+        </div>
+    
+        <div class="dropdown">
+            <img src="Ferrari 430 Scuderia.jpg" alt="Ferrari 430 Scuderia" onclick="openModal('modal3')">
+            <div class="dropdown-content">
+                <a href="https://www.instagram.com/carsofcuritiba/p/C9S4f1VPAiF/?img_index=1" target="_blank">Instagram</a>
+            </div>
+        </div>
+    
+        <div class="dropdown">
+            <img src="RS6.jpg" alt="Audi RS6" onclick="openModal('modal4')">
+            <div class="dropdown-content">
+                <a href="https://www.instagram.com/chagas_films/p/DBPYu27xEqw/" target="_blank">Instagram</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <img src="Audi R8 V10 Plus.jpg" alt="Audi R8 V10 Plus" onclick="openModal('modal5')">
+            <div class="dropdown-content">
+                <a href="https://www.instagram.com/chagas_films/p/C_ESTHzRNaO/?img_index=1" target="_blank">Instagram</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <img src="BMW M2 G87.jpg" alt="BMW M2 G87" onclick="openModal('modal6')">
+            <div class="dropdown-content">
+                <a href="https://www.instagram.com/chagas_films/p/C-5V8iVx5NZ/?img_index=1" target="_blank">Instagram</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <img src="Audi TTRS .jpg" alt="Audi TTRS" onclick="openModal('modal7')">
+            <div class="dropdown-content">
+                <a href="https://www.instagram.com/chagas_films/p/C-_IvdaxLjB/" target="_blank">Instagram</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <img src="Lamborghini Aventador SVJ.jpg" alt="Lamborghini Aventador SVJ" onclick="openModal('modal8')">
+            <div class="dropdown-content">
+                <a href="https://www.instagram.com/14spotting/p/DAJyX1Ky2LM/?img_index=1" target="_blank">Instagram</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <img src="Ferrari SF90 Spider.jpeg" alt="Ferrari SF90 Spider" onclick="openModal('modal9')">
+            <div class="dropdown-content">
+                <a href="https://www.instagram.com/14spotting/p/C4d9VCtPO8h/?img_index=1" target="_blank">Instagram</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <img src="Rolls Royce Wraith Black Badge.jpeg" alt="Rolls Royce Wraith Black Badge" onclick="openModal('modal10')">
+            <div class="dropdown-content">
+                <a href="https://www.instagram.com/carsofcuritiba/p/Cvsurbarh5i/?img_index=1" target="_blank">Instagram</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <img src="Mercedes-benz SLS AMG Rodaster 2011.jpeg" alt="Mercedes-benz SLS AMG Rodaster 2011" onclick="openModal('modal11')">
+            <div class="dropdown-content">
+                <a href="https://www.instagram.com/mendes_carspotter/p/C_Qgsb7Micb/?img_index=1" target="_blank">Instagram</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <img src="Mclaren Senna Full carbon.jpeg" alt="Mclaren Senna Full carbon" onclick="openModal('modal12')">
+            <div class="dropdown-content">
+                <a href="https://www.instagram.com/mendes_carspotter/p/C44FTHeMyhj/?img_index=1" target="_blank">Instagram</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <img src="Mercedes G63 AMG.jpeg" alt="Mercedes G63 AMG" onclick="openModal('modal13')">
+            <div class="dropdown-content">
+                <a href="https://www.instagram.com/carsofcuritiba/p/ClpV4h1rQEa/" target="_blank">Instagram</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <img src="Lamborghini Huracán STO.jpeg" alt="Lamborghini Huracán STO" onclick="openModal('modal14')">
+            <div class="dropdown-content">
+                <a href="https://www.instagram.com/carsofcuritiba/p/ClkAgB1P0l7/?img_index=1" target="_blank">Instagram</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <img src="Dodge SRT Hellcat Jailbreak.jpeg" alt="Dodge SRT Hellcat Jailbreak" onclick="openModal('modal15')">
+            <div class="dropdown-content">
+                <a href="https://www.instagram.com/carsofcuritiba/p/Co0WzC5LjgS/?img_index=1" target="_blank">Instagram</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <img src="Ford GT Carbon Series.jpeg" alt="Ford GT Carbon Series" onclick="openModal('modal16')">
+            <div class="dropdown-content">
+                <a href="https://www.instagram.com/carsofcuritiba/p/CzcB__aP3Du/?img_index=1" target="_blank">Instagram</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <img src="Ferrari F40.jpeg" alt="Ferrari F40" onclick="openModal('modal17')">
+            <div class="dropdown-content">
+                <a href="https://www.instagram.com/wbr.media/p/Czwae4ML26f/?img_index=1" target="_blank">Instagram</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <img src="Bugatti Chiron.jpeg" alt="Bugatti Chiron" onclick="openModal('modal18')">
+            <div class="dropdown-content">
+                <a href="https://www.instagram.com/supercars_mirim_brasil/p/C84fZNxRIzw/?img_index=1" target="_blank">Instagram</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <img src="Mclaren Artura.jpeg" alt="Mclaren Artura" onclick="openModal('modal19')">
+            <div class="dropdown-content">
+                <a href="https://www.instagram.com/14spotting/p/C5MWJ9zP0zC/?img_index=1" target="_blank">Instagram</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <img src="Lamborghini Revuelto.jpeg" alt="Lamborghini Revuelto" onclick="openModal('modal20')">
+            <div class="dropdown-content">
+                <a href="https://www.instagram.com/14spotting/p/C9GJkZ8vk_V/?img_index=1" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </section>
+
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1')">&times;</span>
+            <h2>Porsche 918</h2>
+            <p>O Porsche 918 é um supercarro híbrido, combinando um motor a gasolina com motores elétricos. Ele é muito rápido, com quase 900 cavalos de potência, e foi feito para alta performance nas pistas e nas ruas. Seu design é moderno e aerodinâmico, com detalhes de luxo no interior.</p>
+        </div>
+    </div>
+    
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal2')">&times;</span>
+            <h2>Mclaren Senna</h2>
+            <p>O McLaren Senna é um carro superesportivo muito rápido e leve, feito para correr em pistas. Tem um motor poderoso de 800 cavalos, um design aerodinâmico com muitas entradas de ar e um grande aerofólio na traseira. O interior é simples e focado em desempenho, com poucos detalhes para deixar o carro mais leve. É uma homenagem ao piloto Ayrton Senna, famoso pela sua velocidade e habilidade.</p>
+        </div>
+    </div>
+
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal3')">&times;</span>
+            <h2>Ferrari 430 Scuderia</h2>
+            <p>A Ferrari 430 Scuderia é um carro esportivo leve e rápido, focado em desempenho. Com um motor V8 de 510 cavalos, ela acelera rapidamente e tem um design aerodinâmico. O interior é simples e esportivo, com menos detalhes para reduzir o peso e melhorar a velocidade. É uma versão mais poderosa e voltada para as pistas do modelo Ferrari F430</p>
+        </div>
+    </div>
+    
+    <div id="modal4" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal4')">&times;</span>
+            <h2>Audi RS6</h2>
+            <p>O Audi RS6 é uma perua esportiva potente e versátil. Com um motor V8 biturbo de cerca de 600 cavalos, ele oferece grande aceleração e desempenho, além de espaço para toda a família e bagagem. Seu design é elegante e agressivo, com detalhes esportivos e acabamento de luxo no interior. É perfeito tanto para o dia a dia quanto para quem gosta de velocidade.</p>
+        </div>
+    </div>
+
+    <div id="modal5" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal5')">&times;</span>
+            <h2>Audi R8 V10</h2>
+            <p>O Audi R8 V10 é um supercarro potente e elegante, com um motor V10 que produz mais de 600 cavalos de potência. Ele tem um design aerodinâmico e moderno, com uma frente baixa e linhas marcantes. Seu interior é luxuoso e focado no motorista, com tecnologias avançadas para uma experiência de condução emocionante. É conhecido por sua alta performance e o ronco característico do motor V10.</p>
+        </div>
+    </div>
+
+    <div id="modal6" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal6')">&times;</span>
+            <h2>BMW M2 G87</h2>
+            <p>O BMW M2 G87 é um cupê esportivo compacto com alto desempenho. Ele possui um motor de 6 cilindros em linha que gera cerca de 450 cavalos de potência, proporcionando muita velocidade e agilidade. O design é robusto e esportivo, com para-lamas alargados, entradas de ar grandes e um estilo marcante. O interior combina luxo e esportividade, com assentos de couro e tecnologias focadas no motorista. É um carro que entrega uma experiência de condução emocionante, ideal para quem gosta de dirigir.</p>
+        </div>
+    </div>
+  
+    <div id="modal7" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal7')">&times;</span>
+            <h2>Audi TTRS</h2>
+            <p>O Audi TT RS é um cupê esportivo compacto e poderoso. Ele vem com um motor 5 cilindros turbo que gera cerca de 400 cavalos de potência, oferecendo uma aceleração impressionante. O design é elegante e aerodinâmico, com linhas arredondadas e uma frente agressiva. O interior é luxuoso e focado no motorista, com acabamentos premium e tecnologia de ponta. É um carro ágil e rápido, ideal para quem quer performance e estilo.</p>
+        </div>
+    </div>
+
+    <div id="modal8" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal8')">&times;</span>
+            <h2>Lamborghini Aventador SVJ</h2>
+            <p>O Lamborghini Aventador SVJ é um supercarro extremamente potente e focado em alta performance. Ele tem um motor V12 de 770 cavalos de potência, permitindo uma aceleração impressionante e uma velocidade máxima muito alta. Seu design é agressivo e aerodinâmico, com linhas afiadas, grandes entradas de ar e um aerofólio traseiro que melhora a estabilidade. O interior é luxuoso e esportivo, com detalhes em fibra de carbono e tecnologia avançada. Este modelo é feito para quem busca velocidade, estilo e exclusividade</p>
+        </div>
+    </div>
+
+    <div id="modal9" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal9')">&times;</span>
+            <h2>Ferrari SF90 Spider</h2>
+            <p>A Ferrari SF90 Spider é um supercarro híbrido conversível que combina desempenho e tecnologia avançada. Com um motor V8 biturbo e três motores elétricos, ele gera um total de 1.000 cavalos de potência, oferecendo uma aceleração impressionante e a opção de dirigir em modo totalmente elétrico. Seu design é elegante e aerodinâmico, com um teto retrátil que permite desfrutar de uma experiência ao ar livre. O interior é luxuoso e moderno, com acabamentos de alta qualidade e tecnologia voltada ao motorista. É uma Ferrari que une potência, sofisticação e inovação.</p>
+        </div>
+    </div>
+
+    <div id="modal10" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal10')">&times;</span>
+            <h2>Rolls Royce Wraith Black Badge</h2>
+            <p>O Rolls-Royce Wraith Black Badge é um coupé de luxo poderoso e sofisticado, com um motor V12 biturbo que gera cerca de 625 cavalos de potência. A edição Black Badge traz um visual mais escuro e ousado, com acabamentos em preto brilhante e detalhes exclusivos. O design é imponente e elegante, com portas que abrem para trás e linhas clássicas que destacam seu luxo. No interior, há materiais de altíssima qualidade, como couro e fibra de carbono, e um painel iluminado com estrelas, proporcionando uma experiência única e requintada para quem busca exclusividade e estilo.</p>
+        </div>
+    </div>
+
+    <div id="modal11" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal11')">&times;</span>
+            <h2>Mercedes-benz SLS AMG Rodaster</h2>
+            <p>O Mercedes-Benz SLS AMG Roadster é um conversível esportivo de alto desempenho com um motor V8 de 6,2 litros que gera 571 cavalos de potência. Ele tem um design marcante com um longo capô e traseira curta, além de uma capota de tecido que abre em apenas 11 segundos. Seu interior é inspirado na aviação, com detalhes em metal e saídas de ar que lembram turbinas de jato. É um carro potente e elegante, feito para quem busca luxo e performance em um conversível exclusivo.</p>
+        </div>
+    </div>
+
+    <div id="modal12" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal12')">&times;</span>
+            <h2>Mclaren Senna Full Carbon</h2>
+            <p>O McLaren Senna Full Carbon é uma edição especial do supercarro McLaren Senna, com a carroceria totalmente feita de fibra de carbono aparente. Esse material leve e resistente deixa o carro ainda mais exclusivo, além de melhorar a aerodinâmica e o desempenho. Equipado com um motor V8 biturbo de 800 cavalos, ele é extremamente rápido e projetado para máxima performance nas pistas. O design agressivo, com grandes entradas de ar e aerofólio traseiro, é complementado pela aparência única do carbono. O interior é focado em alta performance, com acabamentos minimalistas e materiais leves.</p>
+        </div>
+    </div>
+
+    <div id="modal13" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal13')">&times;</span>
+            <h2>Mercedes G63 AMG</h2>
+            <p>O Mercedes G63 AMG é um SUV de luxo com alta performance, conhecido pelo seu design robusto e quadrado. Equipado com um motor V8 biturbo de 585 cavalos de potência, ele combina força e velocidade impressionantes, podendo enfrentar terrenos difíceis e acelerar rapidamente em estradas. O interior é luxuoso e espaçoso, com materiais de alta qualidade, tecnologia avançada e acabamentos elegantes. É um veículo que une capacidade off-road com o conforto e o estilo característicos da linha AMG, perfeito para quem busca potência e exclusividade.</p>
+        </div>
+    </div>
+
+    <div id="modal14" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal14')">&times;</span>
+            <h2>Lamborghini Huracán STO</h2>
+            <p>O Lamborghini Huracán STO é um supercarro inspirado nos carros de corrida, feito para entregar performance extrema tanto na pista quanto nas ruas. Equipado com um motor V10 de 640 cavalos de potência, ele é leve e aerodinâmico, com várias partes da carroceria feitas de fibra de carbono. O design é agressivo, com entradas de ar, spoiler e difusor traseiro para melhorar a estabilidade e o fluxo de ar. O interior é focado no desempenho, com detalhes minimalistas e acabamentos de alta qualidade, proporcionando uma experiência de condução emocionante e exclusiva.</p>
+        </div>
+    </div>
+
+    <div id="modal15" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal15')">&times;</span>
+            <h2>Dodge SRT Hellcat Jailbreak</h2>
+            <p>O Dodge SRT Hellcat Jailbreak é uma versão especial dos muscle cars Challenger e Charger, com um motor V8 supercharged de 6,2 litros que gera 807 cavalos de potência. Esse modelo oferece uma personalização ampla, permitindo escolher entre várias combinações de cores, acabamentos internos, rodas e outros detalhes para criar um visual exclusivo. Ele acelera rápido e pode alcançar mais de 320 km/h, combinando o estilo clássico dos muscle cars com tecnologia moderna e potência extrema, ideal para quem busca um carro único e altamente performático.</p>
+        </div>
+    </div>
+
+    <div id="modal16" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal16')">&times;</span>
+            <h2>Ford GT Carbon Series</h2>
+            <p>O Ford GT Carbon Series é uma versão especial e mais leve do supercarro Ford GT, com o uso extensivo de fibra de carbono para reduzir o peso em cerca de 18 kg. Equipado com um motor V6 biturbo de 3.5 litros, ele entrega 656 cavalos de potência para um desempenho incrível. Seu design destaca elementos em fibra de carbono expostos, como nas faixas centrais e nas rodas, com opções de personalização em cores contrastantes para retrovisores e pinças de freio. O interior é esportivo e exclusivo, com acabamentos em fibra de carbono e costuras prateadas nos bancos, reforçando seu estilo único e desempenho de alto nível.</p>
+        </div>
+    </div>
+
+    <div id="modal17" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal17')">&times;</span>
+            <h2>Ferrari F40</h2>
+            <p>A Ferrari F40 é um icônico supercarro esportivo, lançado em 1987 para comemorar os 40 anos da Ferrari. Ela possui um motor V8 biturbo de 2.9 litros que entrega 478 cavalos de potência, proporcionando uma experiência de direção intensa e aceleração impressionante. O design é marcante, com linhas aerodinâmicas, grandes entradas de ar e uma enorme asa traseira. No interior, é minimalista, com foco no peso reduzido e no desempenho, com poucos confortos. A F40 é amplamente considerada um clássico e um dos carros mais memoráveis da Ferrari.</p>
+        </div>
+    </div>
+
+    <div id="modal18" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal18')">&times;</span>
+            <h2>Bugatti Chiron</h2>
+            <p>O Bugatti Chiron é um dos supercarros mais potentes e luxuosos do mundo, equipado com um motor W16 de 8.0 litros e quatro turbos, que gera impressionantes 1.500 cavalos de potência. Ele alcança uma velocidade máxima de 420 km/h e acelera de 0 a 100 km/h em menos de 2,5 segundos. O design é elegante e aerodinâmico, com curvas suaves e detalhes sofisticados. No interior, combina materiais de altíssima qualidade, como couro e fibra de carbono, com tecnologia avançada. É um carro exclusivo e altamente desejado, feito para entusiastas de velocidade e luxo extremo.</p>
+        </div>
+    </div>
+
+    <div id="modal19" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal19')">&times;</span>
+            <h2>Mclaren Artura</h2>
+            <p>A McLaren Artura é um supercarro híbrido plug-in, combinando um motor V6 biturbo com um motor elétrico para gerar um total de 680 cavalos de potência. Ele oferece aceleração rápida e eficiência energética, com capacidade de rodar curtas distâncias em modo totalmente elétrico. O design é aerodinâmico e moderno, mantendo o estilo característico da McLaren, com linhas elegantes e entradas de ar bem definidas. O interior é focado no motorista, com acabamento de alta qualidade e tecnologia avançada. A Artura é ideal para quem quer desempenho e sustentabilidade em um carro esportivo de última geração.</p>
+        </div>
+    </div>
+
+    <div id="modal20" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal20')">&times;</span>
+            <h2>Lamborghini Revuelto</h2>
+            <p>O Lamborghini Revuelto é o primeiro supercarro híbrido plug-in V12 da Lamborghini, combinando um motor V12 naturalmente aspirado com três motores elétricos, totalizando cerca de 1.015 cavalos de potência. Ele oferece uma experiência de direção eletrizante, com aceleração rápida e a opção de rodar em modo elétrico em curtas distâncias. O design é futurista e agressivo, com linhas marcantes, grandes entradas de ar e um aerofólio traseiro que aumenta a estabilidade em alta velocidade. O interior é luxuoso e esportivo, com tecnologias avançadas e materiais de alta qualidade, mantendo o foco no desempenho e no estilo inconfundível da Lamborghini.</p>
+        </div>
+    </div>
+
+
+
+
+    <footer>
+        <p>&copy; 2024 CarOfSet. Todos os direitos reservados.</p>
+    </footer>
+</body>
+<script src="carros.js"></script>
+</html>
